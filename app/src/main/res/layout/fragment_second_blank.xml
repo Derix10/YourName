@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#D3F1B5"
+    tools:context=".SecondBlankFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <ImageView
+        android:layout_marginStart="100dp"
+        android:src="@drawable/yyy"
+        android:layout_width="200dp"
+        android:layout_height="250dp"/>
+    <TextView
+        android:hint="Name"
+        android:gravity="center"
+        android:paddingBottom="170dp"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        android:id="@+id/text"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        />
+    <TextView
+        android:hint="SurName"
+        android:gravity="center"
+        android:paddingBottom="30dp"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        android:id="@+id/text2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        />
+    <TextView
+        android:text="Возраст : "
+        android:gravity="center"
+        android:paddingTop="100dp"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        android:id="@+id/text3"
+        android:paddingEnd="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+    <TextView
+        android:hint="Age"
+        android:gravity="center"
+        android:paddingTop="100dp"
+        android:paddingStart="100dp"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        android:id="@+id/text4"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        />
+</FrameLayout>
